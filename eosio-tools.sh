@@ -29,7 +29,7 @@ function start_eosio {
 function stop_eosio {
     if [ -f ${PID_FILE} ]; then
         echo 'Stopping...'
-        kill -15 `cat eosid.pid`
+        kill -15 $(cat "${PID_FILE}")
         rm -v ${PID_FILE}
     else
         echo "No ${PID_FILE} found"
