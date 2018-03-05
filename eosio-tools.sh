@@ -2,7 +2,7 @@
 
 LOG_FILE='eosiod.log'
 PID_FILE='eosiod.pid'
-VERSION='0.1'
+VERSION='0.1.1'
 
 function start_eosio {
 
