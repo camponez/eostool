@@ -18,7 +18,7 @@ cd $HOME/eos-programs
 ## Usage
 * `./tools/eosio-tools.sh start` - start eosiod and redirect the log to `eosiod.log`
 * `./toos/eosio-tools.sh stop` - stop eosiod
-* `./toos/eosio-tools.sh restart` - restart eosid. **NOTE**: This will overwrite the `eosid.log.old` file. Save it before using this option
+* `./toos/eosio-tools.sh restart` - restart eosiod. **NOTE**: This will overwrite the `eosiod.log.old` file. Save it before using this option
 
 ## Seeing the logs
 
