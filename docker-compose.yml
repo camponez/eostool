@@ -6,4 +6,4 @@ services:
       - "8888:8888"
       - "1337:1337"
     volumes:
-      - ./files:/opt/files
+      - ../files:/opt/files
